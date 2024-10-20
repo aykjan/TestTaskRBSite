@@ -1,0 +1,2 @@
+import initVideoPlayer from"./components/videoPlayer.js";import Modal from"./components/modal.js";import sliderModule from"./components/sliderModule.js";initVideoPlayer("https://www.youtube.com/embed/zyI3hAXTgFc?si=ZgoRmTSLAEuJzWnw"),document.addEventListener("DOMContentLoaded",()=>{Modal.init(),document.querySelectorAll(".button--wide, .button--standart").forEach(e=>{e.addEventListener("click",e=>{e.preventDefault(),Modal.open()})}),sliderModule.init()});
+//# sourceMappingURL=main.js.map
